@@ -18,6 +18,7 @@ To install `ethers` and the Sei EVM bindings, run:
 ```bash copy
 npm install ethers
 npm install @sei-js/evm
+npm install @sei-js/utils
 ```
 
 Next, import the solo precompile's address and ABI:
