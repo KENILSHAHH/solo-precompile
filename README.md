@@ -9,7 +9,7 @@ keywords: ["precompile usage", "ethers.js", "solo precompile", "claim", "sei con
 
 The Sei precompiles can be used like any standard smart contract on the EVM. For
 example, using [ethers.js](https://docs.ethers.org/v6/), you can interact with
-Sei's staking module via the staking precompile.
+Sei's Solo module via the Solo precompile.
 
 ## Setup
 
@@ -20,7 +20,7 @@ npm install ethers
 npm install @sei-js/evm
 ```
 
-Next, import the staking precompile's address and ABI:
+Next, import the solo precompile's address and ABI:
 
 ```typescript copy
 // Import Solo precompile address and ABI. Solo precompile functions newClaimMsg and newClaimSpecificMsg allows you to create the claim message assets
